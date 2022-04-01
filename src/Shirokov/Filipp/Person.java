@@ -69,7 +69,7 @@ public class Person {
             return name;
     }
 
-    public void setSpouse(Person spouse) {
+    private void setSpouse(Person spouse) {
         this.spouse = spouse;
     }
 }
